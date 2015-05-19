@@ -9,6 +9,7 @@
  * @link      N/A
  */
 
+// Include Composer's autoload https://getcomposer.org/doc/01-basic-usage.md#autoloading
 require '../vendor/autoload.php';
 
 // We're using UTF-8 strings until the end of the script
