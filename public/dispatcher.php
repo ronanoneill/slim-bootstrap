@@ -11,6 +11,12 @@
 
 require '../vendor/autoload.php';
 
+// We're using UTF-8 strings until the end of the script
+mb_internal_encoding('UTF-8');
+
+// We'll be outputting UTF-8 to the browser
+mb_http_output('UTF-8');
+
 // Create instance of Slim
 $app = new \Slim\Slim(
 	array(
