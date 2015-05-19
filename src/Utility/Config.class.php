@@ -25,7 +25,6 @@ namespace Utility;
  */
 class Config
 {
-
     /**
      * Loaded settings from ini configs
      *
@@ -33,14 +32,12 @@ class Config
      */
     private static $_settings = array();
 
-
     /**
      * Loaded config files
      *
      * @var array
      */
     private static $_loadedFiles = array();
-
 
     /**
      * Load an ini file
@@ -64,7 +61,6 @@ class Config
         return false;
     }
 
-
     /**
      * Build the full path to ini file in the config folder
      *
@@ -74,7 +70,6 @@ class Config
     private static function _buildFullPathToIniFile($fileName) {
         return __DIR__ . '/../../config/' . $fileName . '.ini';
     }
-
 
     /**
      * Get the setting for a specific key
