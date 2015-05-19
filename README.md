@@ -12,4 +12,4 @@ Installed using [Composer](https://getcomposer.org/)
 
 ### To do
 
-Tests!!!,  some sort of semantic markup templating (prob Handlebars), Less / Sass, Grunt
+Improve the very basic PHPUnit testing framework, some sort of semantic markup templating (prob Handlebars), Less / Sass, Grunt
