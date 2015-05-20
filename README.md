@@ -2,14 +2,11 @@
 
 Timesaver when spinning up new bespoke PHP sites.
 
-High level PHP web framework based off of [Slim](http://www.slimframework.com/) and [Twig](http://twig.sensiolabs.org/).
+High level PHP web framework based off of [Slim](http://www.slimframework.com/), [Twig](http://twig.sensiolabs.org/), [PHPUnit](https://phpunit.de/), [LessCss](http://lesscss.org/) and [Grunt](http://gruntjs.com/).
 
-Includes very basic MySQL (PDO) and MongoDB Clients with Solr, ElasticSearch and Redis clients coming soon.
+Includes very basic MySQL (PDO) and MongoDB Clients, with Solr, Elastic and Redis clients in the works.
 
 ### Install
 
-Installed using [Composer](https://getcomposer.org/)
-
-### To do
-
-Improve the very basic PHPUnit testing framework, some sort of semantic markup templating (prob Handlebars), Less / Sass, Grunt
+- Slim / Twig installed via [Composer](https://getcomposer.org/)
+- Grunt / Watch / Less installed via [NPM](https://www.npmjs.com/) `npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt --save-dev`
