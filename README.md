@@ -9,4 +9,4 @@ Includes very basic MySQL (PDO) and MongoDB Clients, with Solr, Elastic and Redi
 ### Install
 
 - Slim / Twig installed via [Composer](https://getcomposer.org/)
-- Grunt / Watch / Less installed via [NPM](https://www.npmjs.com/) `npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt --save-dev`
+- Grunt / Watch / Less installed via [NPM](https://www.npmjs.com/)
